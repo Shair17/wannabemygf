@@ -1,0 +1,30 @@
+body {
+	background-color: #0e153a;
+	color: #e2f3f5;
+}
+
+#app {
+	display: grid;
+	place-content: center;
+	place-items: center;
+	position: relative;
+}
+
+.button {
+	font-weight: bold;
+	transition: all 0.2s;
+	display: inline-flex;
+	cursor: pointer;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	border: none;
+	border-radius: 0.5rem;
+	font-weight: 500;
+	font-size: 1.25rem;
+	line-height: 1.25rem;
+	user-select: none;
+	background-color: #3d5af1;
+	color: #e2f3f5;
+}
